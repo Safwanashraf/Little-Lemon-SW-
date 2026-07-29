@@ -64,6 +64,7 @@ footer>img {
 }
 footer div {
     display: flex;
+    justify-content: flex-end;
     padding-right: 20px;
     width: 50%;
 }
@@ -71,6 +72,7 @@ a{
     /* text-decoration: none; */
     color: rgb(50, 3, 3);
 }
-footer p{
+footer>div>p{
+    text-decoration: overline;
     align-self:flex-end;
 }
